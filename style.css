@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, Arial;
+}
+main {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #eee;
+    padding: 20px;
+}
+main input {
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+input:focus {
+    outline: none;
+}
+main section {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+main section span {
+    background-color: #009688;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #eee;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+footer {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px dashed white;
+}
+footer span span{
+    font-weight: bold;
+    color: #009688;
+}
+.keys {
+    display: block;
+    background-color: #565353eb;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    color: white;
+}
